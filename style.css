@@ -32,3 +32,12 @@ body {
     -webkit-appearance: none;
     appearance: none;
 }
+
+.seat {
+    background-color: #0F00FF;
+    height: 12px;
+    width:15px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
