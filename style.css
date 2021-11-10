@@ -33,6 +33,11 @@ body {
     appearance: none;
 }
 
+.container {
+    perspective: 100px;
+    margin-bottom: 30px;
+}
+
 .seat {
     background-color: #0F00FF;
     height: 12px;
