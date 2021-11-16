@@ -6,3 +6,9 @@ const movieSelect = document.getElementById('movie');
 
 
 const ticketPrice = +movieSelect.value;
+
+container.addEventListener('click', (e) => {
+    if(e.target.classList.contains('seat')) {
+        console.log(e.target);
+    }
+})
